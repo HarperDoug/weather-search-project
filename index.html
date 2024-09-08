@@ -15,22 +15,39 @@
   <body>
     <div class="app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter city name" required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter city name"
+            required
+            class="search-box"
+          />
+          <input type="submit" value="Search" class="submit-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>City Name</h1>
-          <p>Date, Time</p>
-        </div>
-        <div>🌤️ Temperature</div>
+        <h1>City Name</h1>
+        <div class="details">Date, Time</div>
 
         <h2>Conditions</h2>
-        <h3>Humidity</h3>
-        <h3>Wind</h3>
-        <h3>UV Index</h3>
+        <div class="conditions">
+          <div class="condition">
+            <h3>Temperature</h3>
+            20
+          </div>
+          <div class="condition">
+            <h3>Humidity</h3>
+            6%
+          </div>
+          <div class="condition">
+            <h3>Wind</h3>
+            50km/h
+          </div>
+          <div class="condition">
+            <h3>UV Index</h3>
+            3
+          </div>
+        </div>
       </main>
       <footer>
         Built by Jessica Spies, code is hosted on
