@@ -15,18 +15,19 @@
   <body>
     <div class="app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter city name"
             required
+            id = "city-name-input"
             class="search-box"
           />
           <input type="submit" value="Search" class="submit-button" />
         </form>
       </header>
       <main>
-        <h1>City Name</h1>
+        <h1 class = "city-name" id = "city-name">City Name</h1>
         <div class="details">Date, Time</div>
 
         <h2>Conditions</h2>
@@ -34,10 +35,12 @@
           <div class="condition">
             <h3>Temperature</h3>
             <div class="temperature">20</div>
+            <div class="temperature">°C</div>
           </div>
           <div class="condition">
             <h3>Humidity</h3>
-            <div class="humidity">6%</div>
+            <div class="humidity">6</div>
+            <div class="humidity">%</div>
           </div>
           <div class="condition">
             <h3>Wind</h3>
@@ -58,5 +61,5 @@
         <a href="https://main--searchcity-weather.netlify.app/">Netlify </a>
       </footer>
     </div>
-  </body>
+    <script src="src/index.js"></script>
 </html>

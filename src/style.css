@@ -67,7 +67,13 @@ h3 {
   margin: 10px;
   text-align: center;
 }
+.temperature {
+  display: inline;
+}
 
+.humidity {
+  display: inline;
+}
 footer {
   margin: 10px;
   font-size: 12px;
