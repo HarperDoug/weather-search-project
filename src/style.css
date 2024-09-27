@@ -74,6 +74,14 @@ h3 {
 .humidity {
   display: inline;
 }
+
+.wind {
+  display: inline;
+}
+
+.pressure {
+  display: inline;
+}
 footer {
   margin: 10px;
   font-size: 12px;
