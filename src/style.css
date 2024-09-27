@@ -43,11 +43,7 @@ h1 {
 }
 
 .conditions {
-  display: flex;
-  justify-content: space-between;
-}
-
-.details {
+  padding-top: 2px;
   display: flex;
   justify-content: space-between;
 }
@@ -64,7 +60,7 @@ h3 {
   background-color: #b8d4cf;
   border-radius: 5px;
   padding: 20px;
-  margin: 10px;
+  margin: 5px;
   text-align: center;
 }
 .temperature {
