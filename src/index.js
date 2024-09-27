@@ -13,6 +13,10 @@ function getWeatherData(response) {
   let timeElement = document.querySelector("#date-time");
   let date = new Date(response.data.time * 1000);
   timeElement.innerHTML = formatDate(date);
+  let icon = document.querySelector("#icon");
+  icon.innerHTML = `<img src= "${response.data.condition.icon_url}" class = "desc">`;
+  let description = document.querySelector("#desc-text");
+  description.innerHTML = response.data.condition.description;
 }
 
 function formatDate(date) {

@@ -4,17 +4,35 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
-h1 {
+.heading-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.city {
   font-size: 50px;
   color: #344e41;
+  display: flex;
+}
+
+.icon {
+  line-height: 40px;
+  width: 90px;
 }
 
 .search-box {
   background-color: #f6fff8;
+  font-size: 14px;
   border: none;
   border-radius: 7px;
   width: 80%;
-  padding: 10px;
+  padding: 20px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -23,14 +41,20 @@ h1 {
 .submit-button {
   background: #344e41;
   color: #f6fff8;
-  padding: 10px;
+  padding: 20px;
   border: none;
   border-radius: 7px;
   margin-left: 5px;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.details {
+  padding: 10px auto;
+  margin: 0 20px 0 0;
+  font-size: 20px;
 }
 
 .app {
@@ -42,15 +66,15 @@ h1 {
   border-radius: 10px;
 }
 
+.condition-header {
+  margin: 5px 0 15px 0;
+  font-size: 25px;
+}
 .conditions {
-  padding-top: 2px;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
 }
 
-.temp {
-  font-size: 30px;
-}
 h3 {
   font-size: 15px;
 }
@@ -63,6 +87,7 @@ h3 {
   margin: 5px;
   text-align: center;
 }
+
 .temperature {
   display: inline;
 }
